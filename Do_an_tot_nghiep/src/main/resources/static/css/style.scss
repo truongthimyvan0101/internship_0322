@@ -36,6 +36,16 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
+
+  ul,li{
+    list-style: none;
+  }
+  a{
+    text-decoration:none;
+  }
+  a:hover {
+    color: #ffd24b;
+  }
 }
 
 .layout_padding {
@@ -106,7 +116,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 78vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   padding-left: 45px;
